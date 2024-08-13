@@ -1,0 +1,132 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* พื้นหลังสีขาว */
+}
+
+header {
+    background-color: #4e0a0a; /* สีแดงเลือดหมูเข้ม */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: #f1c40f; /* สีเหลืองสดใส */
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* พื้นหลังของแต่ละส่วน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงาเพื่อเพิ่มความลึก */
+}
+
+h2 {
+    color: #2980b9; /* สีน้ำเงินเข้ม */
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    color: #333; /* สีของข้อความหลัก */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.section-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #e74c3c; /* สีแดงเลือดหมูสว่าง */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+form label {
+    margin-top: 15px;
+    font-weight: 700;
+    color: #fff; /* สีของป้ายในฟอร์ม */
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #fff; /* ขอบของฟอร์ม */
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #2980b9; /* สีน้ำเงิน */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #1c5e9c; /* สีของปุ่มเมื่อวางเมาส์ */
+}
+
+footer {
+    background-color: #4e0a0a; /* สีแดงเลือดหมูเข้ม */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
